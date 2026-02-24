@@ -122,7 +122,7 @@ return {
                                     version = 'LuaJIT',
                                 },
                                 diagnostics = {
-                                    globals = { 'vim' },
+                                    globals = { 'vim', 'require' },
                                 },
                                 workspace = {
                                     library = { vim.env.VIMRUNTIME },
